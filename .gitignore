@@ -1,0 +1,42 @@
+# Dati personali — non committare mai (le tue foto di ricevute reali)
+# Usa il prefisso "personal_" per le ricevute private: personal_*.jpg
+sample_receipts/personal_*.jpg
+sample_receipts/personal_*.jpeg
+sample_receipts/personal_*.png
+output/
+
+# Checkpoint Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+.env
+
+# Ollama / modelli locali
+*.gguf
+*.bin
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code
+.claude/settings.local.json
