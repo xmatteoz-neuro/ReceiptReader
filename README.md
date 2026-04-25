@@ -110,6 +110,10 @@ receipt-intelligence/
 
 The project is configurable for any Ollama model with vision capabilities (Extractor) and any model with reasoning capabilities (Reviewer). The defaults are tested on consumer hardware (M-series Mac, 16GB RAM).
 
+## AI Help
+
+Claude Code has been used to refactor the code to work in batch mode only. The logic, thought process and the LLMs implementation is human-made as an exercise to apply the concepts learned in the first chapters from the textbook "Agentic Design Patterns - A Hands-On Guide to Building Intelligent Systems" by Antonio Gulli.
+
 ## License
 
 MIT
